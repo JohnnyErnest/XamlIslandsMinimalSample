@@ -1,0 +1,31 @@
+﻿<UserControl
+    x:Class="VMultiUWPApp_WRC.MyUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VMultiUWPApp_WRC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400"
+    >
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Here is some text in a block" />
+            <TextBox x:ConnectionId='2' Text="Here is some text in a box" x:Name="box"                               />
+            <Slider x:ConnectionId='3' Minimum="0" Maximum="10" StepFrequency="1" x:Name="slider"                                    />
+            <Button x:ConnectionId='4' x:Name="button"                     >This is some text in a button</Button>
+        </StackPanel>
+        <Grid.KeyboardAccelerators>
+            <KeyboardAccelerator x:ConnectionId='5' x:Name="accelAbout" Modifiers="Control" Key="F1" />
+            <KeyboardAccelerator x:ConnectionId='6' x:Name="accelExit" Modifiers="Menu" Key="F4" />
+        </Grid.KeyboardAccelerators>
+    </Grid>
+</UserControl>
+
