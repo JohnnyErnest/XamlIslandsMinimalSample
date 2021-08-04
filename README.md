@@ -4,3 +4,5 @@ A minimal C++ Xaml Islands sample that supports console, Win32, and Xaml, and us
 The main C++ file is 133 lines and was started from another project I was working on called vMulti.
 
 https://github.com/JohnnyErnest/XamlIslandsMinimalSample/blob/main/VMultiUI/main.cpp
+
+![](https://github.com/JohnnyErnest/XamlIslandsMinimalSample/CppMinimalProject.png  | width=100)
