@@ -5,4 +5,4 @@ The main C++ file is 133 lines and was started from another project I was workin
 
 https://github.com/JohnnyErnest/XamlIslandsMinimalSample/blob/main/VMultiUI/main.cpp
 
-![](https://github.com/JohnnyErnest/XamlIslandsMinimalSample/CppMinimalProject.png  | width=100)
+![Screenshot](/CppMinimalProject.png  | width=100)
